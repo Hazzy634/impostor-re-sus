@@ -2,7 +2,6 @@
 
 name: Build
 
-
 # Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
@@ -43,4 +42,4 @@ jobs:
         uses: actions/upload-artifact@v2.2.4
         with:
           name: windowsBuild
-          path: export/release/windows/buildWindows
+          path: export/release/windows/bin
