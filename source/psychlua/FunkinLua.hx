@@ -199,6 +199,7 @@ class FunkinLua {
 		set('splashAlpha', ClientPrefs.data.splashAlpha);
 
 		set('buildTarget', getBuildTarget());
+    #if mobileC
 		function getMobileControlsAsString():String {
 			switch (MobileControls.getMode()){
 			case 0:
@@ -216,6 +217,7 @@ class FunkinLua {
 			}
 			return 'null';
 		}
+	 #end
     #if mobileC set('mobileControlsMode', getMobileControlsAsString()); #end
 		for (name => func in customFunctions)
 		{
