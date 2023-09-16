@@ -64,7 +64,6 @@ class CreditsState extends MusicBeatState
 			[''],
 		        ['Vs impostor'],
                         ['VS Impostor',		                'imp',		                        'Mod from which we took or remixed songs',							'https://gamejolt.com/games/vsimpostor/643430',           'd03735'],
-			['']
 		];
 		
 		for(i in defaultList) {
