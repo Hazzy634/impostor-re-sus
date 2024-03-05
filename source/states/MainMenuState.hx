@@ -21,6 +21,7 @@ class MainMenuState extends MusicBeatState
 	private var camGame:FlxCamera;
 	
 	var optionShit:Array<String> = [
+		'story mode',
 		'freeplay',
 		'credits',
 		'options'
